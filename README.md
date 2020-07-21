@@ -36,6 +36,7 @@
 | 1416 | invalid hasTrailer flag              |                          | Используется только с прицепом                   |
 | 1417 | invalid weightGross                  |                          | Категория ТС отличается от "С"                   |
 | 1418 | invalid driver license categories    |                          | Один из водителей на имеет необходимой категории |
+| 1419 | incorrect vin                        |                          | Введеный VIN не соответствует данным по ГРЗ      |
 | 1501 | ingos create agreement error         |                          | Ингосстрах ошибка создания договора              |
 | 1502 | ingos create payment link error      |                          | Ингосстрах ошибка создания ссылки на оплату      |
 | 1503 | ingos check is paid error            |                          | Ингосстрах ошибка проверка статуса оплаты        |
