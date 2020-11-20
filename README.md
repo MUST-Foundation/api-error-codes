@@ -17,6 +17,7 @@
 | 1202 | loss classifier error                |                          | Системная ошибка                                 |
 | 1203 | vin not determined                   |                          | Ну удалось определить VIN                        |
 | 1204 | individual vehicle                   |                          | Это не грузовик                                  |
+| 1205 | owner not legalEntity                |                          | Владелец не является ЮЛ                          |
 | 1301 | invalid prediction                   |                          | Системная ошибка                                 |
 | 1401 | invalid preScoring state             |                          | Системная ошибка                                 |
 | 1402 | should be with trailer               |                          | Используется только с прицепом                   |
