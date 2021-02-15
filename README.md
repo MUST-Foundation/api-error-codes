@@ -17,9 +17,9 @@
 | 1202 | loss classifier error                |                          | Системная ошибка                                 |
 | 1203 | vin not determined                   |                          | Ну удалось определить VIN                        |
 | 1204 | individual vehicle                   |                          | Это не грузовик                                  |
-| 1205 | legalEntity disabled                 |                          | Сейчас оформление недоступно для Юридических лиц |
-| 1206 | individual disabled                  |                          | Сейчас оформление недоступно для Физических лиц  |
-| 1207 | privateEntrepreneur disabled         |                          | Сейчас оформление недоступно для ИП              |
+| 1205 | legalEntity disabled                 |                          | Сейчас оформление для Юридических лиц недоступно |
+| 1206 | individual disabled                  |                          | Сейчас оформление для Физических лиц недоступно  |
+| 1207 | privateEntrepreneur disabled         |                          | Сейчас оформление для ИП недоступно              |
 | 1301 | invalid prediction                   |                          | Системная ошибка                                 |
 | 1401 | invalid preScoring state             |                          | Системная ошибка                                 |
 | 1402 | should be with trailer               |                          | Используется только с прицепом                   |
