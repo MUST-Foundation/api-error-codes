@@ -48,6 +48,6 @@
 | 1505 | ingos get tariff error               |                          | Ингосстрах ошибка предварительного расчета       |
 | 1601 | renis create agreement error         |                          | Ренессанс ошибка создания договора               |
 | 1602 | renis create payment link error      |                          | Ренессанс ошибка создания ссылки на оплату       |
-| 1603 | renis check is paid error            |                          | Ренессанс ошибка проверка статуса оплаты         |
+| 1603 | renis check is paid error            |                          | Истек срок оплаты полиса, процесс остановлен     |
 | 1604 | renis download policy error          |                          | Ренессанс ошибка загрузки полиса                 |
 | 1901 | unhandled sales process error        |                          | Системная ошибка                                 |
