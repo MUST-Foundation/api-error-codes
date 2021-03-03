@@ -20,6 +20,7 @@
 | 1205 | legalEntity disabled                 |                          | Сейчас оформление для Юридических лиц недоступно               |
 | 1206 | individual disabled                  |                          | Сейчас оформление для Физических лиц недоступно                |
 | 1207 | privateEntrepreneur disabled         |                          | Сейчас оформление для ИП недоступно                            |
+| 1208 | empty vehicle industry               |                          | Не удалось определить категорию ТС                             |
 | 1301 | invalid prediction                   |                          | Системная ошибка                                               |
 | 1401 | invalid preScoring state             |                          | Системная ошибка                                               |
 | 1402 | should be with trailer               |                          | Используется только с прицепом                                 |
