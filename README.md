@@ -50,7 +50,7 @@
 | 1412 | insufficient data to calculate price |                          | Не возможно рассчитать стоимость полиса                        |
 | 1413 | cannot get cb territory rate         |                          | Не возможно рассчитать КТ                                      |
 | 1420 | no data                              |                          | Недостаточно данных для обработки запроса                      |
-| #### | **Driver data errors**               |                          | **Ошибки в данных о Водителях**                                |
+| #### | **Drivers data errors**              |                          | **Ошибки в данных о Водителях**                                |
 | 1414 | invalid vehicle license category     |                          | Категория ТС отличается от "С"                                 |
 | 1418 | invalid driver license categories    |                          | Один из водителей на имеет необходимой категории               |
 | 15## | **Ingos errors**                     |                          | **Ошибки ИНГОССТРАХ**                                          |
