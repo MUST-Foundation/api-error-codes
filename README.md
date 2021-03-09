@@ -20,7 +20,7 @@
 | 1406 | incorrect vin                        |                          | Некорректный VIN                                               |
 | 1419 | incorrect vin                        |                          | Введеный VIN не соответствует данным по ГРЗ                    |
 | #### | **Industry\Category\Type errors**    |                          | **Ошибки Индустрии\Категории\Типа ТС**                         |
-| 1201 | invalid vehicle industry             |                          | Некорректный категория ТС                                      |
+| 1201 | invalid vehicle industry             |                          | Некорректная категория ТС                                      |
 | 1204 | individual vehicle                   |                          | Это не грузовик                                                |
 | 1208 | empty vehicle industry               |                          | Не удалось определить категорию ТС                             |
 | 1415 | invalid vehicle body type group      |                          | Категория ТС отличается от "С"                                 |
