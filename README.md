@@ -28,7 +28,7 @@
 | 1202 | loss classifier error                |                          | Системная ошибка LossClassifier                                |
 | 1301 | invalid prediction                   |                          | Системная ошибка Prediction                                    |
 | 1401 | invalid preScoring state             |                          | Системная ошибка PreScoring                                    |
-| 1901 | unhandled sales process error        |                          | Системная ошибка                                               |
+| 1901 | unhandled sales process error        |                          | Системная ошибка SalesProcess                                  |
 | #### | **OSAGO issuing errors**             |                          | **Ошибки выпуска полиса**                                      |
 | 1205 | legalEntity disabled                 |                          | Сейчас оформление для Юридических лиц недоступно               |
 | 1206 | individual disabled                  |                          | Сейчас оформление для Физических лиц недоступно                |
