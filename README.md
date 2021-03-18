@@ -21,9 +21,15 @@
 | 1419 | incorrect vin                        |                          | Введеный VIN не соответствует данным по ГРЗ                    |
 | #### | **Industry\Category\Type errors**    |                          | **Ошибки Индустрии\Категории\Типа ТС**                         |
 | 1201 | invalid vehicle industry             |                          | Некорректная категория ТС                                      |
-| 1204 | individual vehicle                   |                          | Это легковой автомобиль                                               |
+| 1204 | individual vehicle                   |                          | Это легковой автомобиль                                        |
 | 1208 | empty vehicle industry               |                          | Не удалось определить категорию ТС                             |
-| 1415 | invalid vehicle body type group      |                          | Категория ТС отличается от "С"                                 |
+| 1415 | invalid vehicle body type group      |                          | Категория ТС не соответствует ни одному из правил:             |
+|      |                                      |                          | - Тип ТС Седельный тягач                                       |
+|      |                                      |                          | - Тип ТС Грузовик                                              |
+|      |                                      |                          | - Тип ТС Легкий коммерчески транспорт "С" с массой > 3500      |
+|      |                                      |                          | - Тип ТС Легкий коммерчески транспорт "B" с массой <= 3500     |
+|      |                                      |                          | - Тип ТС Микроавтобус "С" с массой > 3500                      |
+|      |                                      |                          | - Тип ТС Микроавтобус "B" с массой <= 3500                     |
 | #### | **System errors**                    |                          | **Системные ошибки**                                           |
 | 1202 | loss classifier error                |                          | Системная ошибка LossClassifier                                |
 | 1301 | invalid prediction                   |                          | Системная ошибка Prediction                                    |
@@ -43,7 +49,7 @@
 | 1417 | invalid weightGross                  |                          | Категория ТС отличается от "С"                                 |
 | #### | **Data collection errors**           |                          | **Ошибки сбора и получения данных**                            |
 | 1407 | cannot get city fias id              |                          | Не возможно определить населенный пункт                        |
-| 1408 | cannot get base tariff               |                          | Не возможно определить Базовый Траиф                           |
+| 1408 | cannot get base tariff               |                          | Не возможно определить Базовый Тариф                           |
 | 1409 | cannot get ageExperienceRate         |                          | Не возможно определить КВС                                     |
 | 1410 | cannot get bonusMalusRate            |                          | Не возможно определить КБМ                                     |
 | 1411 | empty weightGross                    |                          | Отсутствует разрешенная масса ТС                               |
@@ -51,7 +57,7 @@
 | 1413 | cannot get cb territory rate         |                          | Не возможно рассчитать КТ                                      |
 | 1420 | no data                              |                          | Недостаточно данных для обработки запроса                      |
 | #### | **Drivers data errors**              |                          | **Ошибки в данных о Водителях**                                |
-| 1414 | invalid vehicle license category     |                          | Категория ТС отличается от "С"                                 |
+| 1414 | invalid vehicle license category     |                          | Категория ТС известна и не соответствует ни "С" ни "В"         |
 | 1418 | invalid driver license categories    |                          | Один из водителей на имеет необходимой категории               |
 | 15## | **Ingos errors**                     |                          | **Ошибки ИНГОССТРАХ**                                          |
 | 1501 | ingos create agreement error         |                          | Ингосстрах ошибка создания договора                            |
