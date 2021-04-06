@@ -59,6 +59,7 @@
 | 1420 | no data                              |                          | Недостаточно данных для обработки запроса                      |
 | #### | **Drivers data errors**              |                          | **Ошибки в данных о Водителях**                                |
 | 1414 | invalid vehicle license category     |                          | Категория ТС известна и не соответствует ни "С" ни "В"         |
+| 1422 | empty vehicle license category       |                          | Не определена категория ТС                                     |
 | 1418 | invalid driver license categories    |                          | Один из водителей на имеет необходимой категории               |
 | 15## | **Ingos errors**                     |                          | **Ошибки ИНГОССТРАХ**                                          |
 | 1501 | ingos create agreement error         |                          | Ингосстрах ошибка создания договора                            |
