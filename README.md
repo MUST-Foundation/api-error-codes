@@ -40,7 +40,7 @@
 | 1206 | individual disabled                  |                          | Сейчас оформление для Физических лиц недоступно                |
 | 1207 | privateEntrepreneur disabled         |                          | Сейчас оформление для ИП недоступно                            |
 | 1421 | technical inspection expired         |                          | Диагностическая карта просрочена, введите номер действующей ДК |
-| 1430 | no price for vehicle                 |                          | Для ТС нет предложений                                         |
+| 1430 | no price for vehicle                 |                          | Непроходная цена, дефицит тарифа                               |
 | #### | **OSAGO data filling errors**        |                          | **Ошибки заполнения данных полиса**                            |
 | 1402 | should be with trailer               |                          | Используется только с прицепом                                 |
 | 1403 | invalid policy start on              |                          | Не заполнен населенный пункт                                   |
