@@ -2,7 +2,7 @@
 
 
 ## Error Codes
-| num  | code description                     | more detail              | RU detail                                                      |
+| num  | code description                     | more detail              | RU detail                                                      || RU detail                                                      |
 | ---- | -------------------------------------| ------------------------ |----------------------------------------------------------------|
 | 10## | **Phone errors**                     |                          | **Ошибки номера телефона**                                     |
 | 1001 | empty phone                          |                          | Введите номер телефона                                         |
